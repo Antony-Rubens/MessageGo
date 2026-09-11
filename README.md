@@ -1,5 +1,4 @@
 
-
 <img width="1280" height="640" alt="MessageGo" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 # MESSAGEGO 💌
@@ -18,80 +17,110 @@ Long-distance messages are delivered by simulated pigeons.
 
 Because apparently pressing "send" was too easy.
 
+---
 
-# Screenshots (Add at least 3)
+## 🚀 Try MessageGo
 
-![MessageGo Send Screen](<img width="1080" height="2400" alt="sender" src="https://github.com/user-attachments/assets/5292c5f6-9260-4c04-88fd-29e23578fb3a" />
-)
-*The sender creates a message, chooses a delivery method, and starts the delivery.*
+🌐 **Live Demo:** https://message-go-y7ga.vercel.app/
 
-![MessageGo Live Tracking](<img width="720" height="1600" alt="tracking" src="https://github.com/user-attachments/assets/16d3b105-1770-4f5b-89d1-1d64df70c18d" />
-)
-*The sender can track the message and delivery partner in real time.*
+🎥 **Demo Video:** https://youtube.com/shorts/6TiC7TaJLvU?feature=share
 
-![MessageGo Partner Dashboard](<img width="720" height="1600" alt="partner1" src="https://github.com/user-attachments/assets/c77937d6-7474-4d75-8bbe-3a933888d906" />
-<img width="720" height="1600" alt="partner" src="https://github.com/user-attachments/assets/e76d19fb-8d4a-4a49-9c9a-be2d3b65d23a" />
-)
-*The delivery partner can view available deliveries, accept them, and manage the delivery process.*
-
-# Diagrams
-
-![MessageGo Architecture](screenshots/architecture.png)
-*Architecture showing the sender, delivery partners, Supabase backend, realtime tracking, and recipient flow.*
-
-For Hardware:
-
-# Schematic & Circuit
-
-Not applicable — MessageGo is a software-only web application.
-
-*No physical circuit or electronic hardware is required.*
-
-![Schematic](screenshots/architecture.png)
-*Software architecture showing the communication between the application, Supabase services, delivery partners, and recipients.*
-
-# Build Photos
-
-Not applicable — MessageGo is implemented as a web-based software platform.
-
-![Components](screenshots/software.png)
-*The project consists of software components including the Next.js frontend, Supabase backend, database, authentication, realtime services, GPS tracking, and pigeon simulation.*
-
-![Build](screenshots/development.png)
-*Development process involving frontend development, backend integration, database configuration, realtime communication, GPS tracking, and testing.*
-
-![Final](screenshots/final.png)
-*Final MessageGo web application with sender, delivery partner, recipient, live tracking, and pigeon delivery functionality.*
-
-### Project Demo
-
-# Video
-
-[MessageGo — TinkerHub Useless 3.0 Demo](https://youtube.com/shorts/6TiC7TaJLvU?feature=share)
-
-*This demo showcases the complete MessageGo delivery workflow, including message creation, human delivery, real-time GPS tracking, pigeon delivery simulation, recipient handoff verification, and message unlocking.*
-
-# Additional Demos
-
-*The complete project demonstration is included in the video above.*
+💻 **Source Code:** https://github.com/Antony-Rubens/MessageGo
 
 ---
 
-## Team Contributions
+# Screenshots
 
-- **Antony Rubens** — Team Lead: Full-stack development, system architecture, Next.js application, Supabase integration, authentication, database design, realtime tracking, GPS integration, encryption, pigeon simulation, delivery state machine, UI/UX, integration, and testing.
-- **Alan Verghese Mathew** — Team Member: Feature development, integration, testing, documentation, demo preparation, and project support.
+## 1. Sending the Message
+
+<img width="1080" alt="MessageGo Sender" src="https://github.com/user-attachments/assets/2d124935-b394-41f0-9df3-1d1f87458c26" />
+
+*He could have just texted her. He chose this instead.*
+
+## 2. Live Tracking
+
+<img width="720" alt="MessageGo Live Tracking" src="https://github.com/user-attachments/assets/5b2fa6ec-e823-4b1c-b326-ad423b82a016" />
+
+*The message is moving. His relationship isn't.*
+
+## 3. Partner Dashboard
+
+<img width="720" alt="MessageGo Partner Dashboard" src="https://github.com/user-attachments/assets/8d5a67c9-0825-41a8-b4ca-d07979f3d798" />
+
+*Someone is finally putting effort into delivering his message.*
+
+## 4. Recipient Handoff
+
+<img width="720" alt="MessageGo Recipient" src="https://github.com/user-attachments/assets/843ce98f-c42b-4f14-8253-8531e5c7c2cc" />
+
+*After travelling all that distance, the message still needs permission to be opened.*
+
+## 5. Pigeon Express
+
+<img width="720" alt="MessageGo Pigeon Express" src="https://github.com/user-attachments/assets/ed0e86d4-04e9-4047-b659-036bb91885bd" />
+
+*When your message needs more emotional distance, send a pigeon.*
 
 ---
 
-## 👥 Team
+# 🧠 THE IDEA IN 10 SECONDS
 
-### Team Name: DevEmphasis
+A normal messaging app:
 
-### Team Members
+```text
+Write message
+     ↓
+Press Send
+     ↓
+Delivered
+````
 
-- **Antony Rubens** — Team Lead — Albertian Institute of Science and Technology
-- **Alan Verghese Mathew** — Team Member — Albertian Institute of Science and Technology
+MessageGo:
+
+```text
+Write message
+     ↓
+Encrypt it
+     ↓
+Create delivery
+     ↓
+Find a carrier
+     ↓
+Human / Pigeon
+     ↓
+Transport the message
+     ↓
+Track it
+     ↓
+Arrive
+     ↓
+Verify handoff
+     ↓
+Unlock message
+```
+
+Because apparently sending a text needed logistics.
+
+---
+
+# 🚚 THE SOLUTION
+
+## Introducing **MessageGo**
+
+A revolutionary messaging platform designed for people who:
+
+* Took 45 minutes to write a 3-line message.
+* Checked "last seen" 38 times.
+* Overanalysed a "haha".
+* Thought "take care ❤️" meant something.
+* Got called "bro".
+* And still somehow decided to send another message.
+
+MessageGo doesn't deliver your message instantly.
+
+### We make it travel.
+
+Because instant delivery is apparently too kind.
 
 ---
 
@@ -127,29 +156,6 @@ So we asked an important question:
 
 ### What if your message could at least suffer the way you did?
 
-
----
-
-# 🚚 The Solution
-
-## Introducing **MessageGo**
-
-A revolutionary messaging platform designed for people who:
-
-- Took 45 minutes to write a 3-line message.
-- Checked "last seen" 38 times.
-- Overanalysed a "haha".
-- Thought "take care ❤️" meant something.
-- Got called "bro".
-- And still somehow decided to send another message.
-
-MessageGo doesn't deliver your message instantly.
-
-### We make it travel.
-
-Because instant delivery is apparently too kind.
-
-
 ---
 
 # 🧍 HUMAN DELIVERY
@@ -174,7 +180,7 @@ You track them in real time
 They reach her
         ↓
 She still says "you're such a good friend"
-````
+```
 
 ### Human Delivery = REAL GPS
 
@@ -183,6 +189,8 @@ Yes.
 An actual human moves.
 
 Their location is tracked using the browser's Geolocation API.
+
+The partner's coordinates are sent to the backend and reflected on the sender's live tracking interface.
 
 Because if your feelings are going nowhere,
 
@@ -239,9 +247,55 @@ The system calculates:
 * Remaining distance
 * ETA
 
+The pigeon position is continuously simulated along the calculated route and synchronized through the application.
+
 So technically...
 
 **your pigeon has better direction than you had in that relationship.**
+
+---
+
+# 🤨 THE MOST OVER-ENGINEERED SOLUTION TO A NON-PROBLEM
+
+A text message normally takes seconds.
+
+We decided that wasn't enough.
+
+So we built:
+
+```text
+Sender
+   ↓
+Message Encryption
+   ↓
+Delivery Creation
+   ↓
+Carrier Assignment
+   ↓
+Human / Pigeon Selection
+   ↓
+Pickup
+   ↓
+Transportation
+   ↓
+Realtime GPS
+   ↓
+Arrival
+   ↓
+6-Digit Handoff
+   ↓
+Verification
+   ↓
+Message Unlock
+```
+
+All of this...
+
+to deliver a text.
+
+We could have used WhatsApp.
+
+We chose suffering.
 
 ---
 
@@ -266,6 +320,18 @@ They don't know:
 > "I have liked you since second year and I don't know how to tell you."
 
 That's between you and the database.
+
+### Message Layer ≠ Transport Layer
+
+MessageGo separates the message content from the information required for transportation.
+
+The delivery partner needs to know where the message needs to go.
+
+They don't need to know what it says.
+
+> **Take this thing there.**
+
+That's the job.
 
 ---
 
@@ -323,7 +389,7 @@ Every message goes through a beautiful, unnecessarily complicated journey:
 └────────┬─────────┘
          ↓
 ┌───────────────┐
-│    ARRIVED     │
+│    ARRIVED    │
 └───────┬───────┘
         ↓
 ┌────────────────────┐
@@ -405,7 +471,7 @@ Can:
 * Choose delivery method
 * Create a delivery
 * Track the message
-* Cancel the delivery
+* Cancel eligible deliveries
 
 ---
 
@@ -496,13 +562,13 @@ or the most dangerous sentence in the English language.
                          MESSAGEGO
                              │
                              ↓
-                          SENDER
+                           SENDER
                              │
                              ↓
                       ENCRYPT MESSAGE
                              │
                              ↓
-                     CREATE DELIVERY
+                      CREATE DELIVERY
                              │
                       ┌───────┴───────┐
                       ↓               ↓
@@ -639,6 +705,8 @@ The system also uses:
 * Role-based access
 * Delivery state validation
 
+> **Note:** The current encryption implementation is a prototype for the project and should not be considered production-grade end-to-end encryption.
+
 ---
 
 # 🚀 INSTALLATION
@@ -682,53 +750,6 @@ Open:
 ```text
 http://localhost:3000
 ```
-
----
-
-# 📸 SCREENSHOTS
-
-## 1. Sending the Message
-
-![MessageGo Send Screen](<img width="1080" height="2400" alt="sender" src="https://github.com/user-attachments/assets/2d124935-b394-41f0-9df3-1d1f87458c26" />
-)
-
-*He could have just texted her. He chose this instead.*
-
----
-
-## 2. Live Tracking
-
-![MessageGo Live Tracking](<img width="720" height="1600" alt="tracking" src="https://github.com/user-attachments/assets/5b2fa6ec-e823-4b1c-b326-ad423b82a016" />
-)
-
-*The message is moving. His relationship isn't.*
-
----
-
-## 3. Partner Dashboard
-
-![MessageGo Partner Dashboard](<img width="720" height="1600" alt="partner" src="https://github.com/user-attachments/assets/8d5a67c9-0825-41a8-b4ca-d07979f3d798" />
-)
-
-*Someone is finally putting effort into delivering his message.*
-
----
-
-## 4. Recipient Handoff
-
-![MessageGo Recipient](<img width="720" height="1600" alt="recipient" src="https://github.com/user-attachments/assets/843ce98f-c42b-4f14-8253-8531e5c7c2cc" />
-)
-
-*After travelling all that distance, the message still needs permission to be opened.*
-
----
-
-## 5. Pigeon Express
-
-![MessageGo Pigeon](<img width="720" height="1600" alt="pegion" src="https://github.com/user-attachments/assets/ed0e86d4-04e9-4047-b659-036bb91885bd" />
-)
-
-*When your message needs more emotional distance, send a pigeon.*
 
 ---
 
@@ -972,6 +993,30 @@ Finally unlocked
 Because if you're going to get friendzoned...
 
 ### At least make the message work for it.
+
+---
+
+# 🎥 PROJECT DEMO
+
+**Watch the complete MessageGo demonstration:**
+
+[https://youtube.com/shorts/6TiC7TaJLvU?feature=share](https://youtube.com/shorts/6TiC7TaJLvU?feature=share)
+
+---
+
+# 💻 SOURCE CODE
+
+**GitHub Repository:**
+
+[https://github.com/Antony-Rubens/MessageGo](https://github.com/Antony-Rubens/MessageGo)
+
+---
+
+# 🌐 LIVE PROJECT
+
+**Try MessageGo:**
+
+`PASTE YOUR VERCEL URL HERE`
 
 ---
 
