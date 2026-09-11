@@ -21,13 +21,17 @@ Because apparently pressing "send" was too easy.
 
 # Screenshots (Add at least 3)
 
-![MessageGo Send Screen](screenshots/send.png)
+![MessageGo Send Screen](<img width="1080" height="2400" alt="sender" src="https://github.com/user-attachments/assets/5292c5f6-9260-4c04-88fd-29e23578fb3a" />
+)
 *The sender creates a message, chooses a delivery method, and starts the delivery.*
 
-![MessageGo Live Tracking](screenshots/tracking.png)
+![MessageGo Live Tracking](<img width="720" height="1600" alt="tracking" src="https://github.com/user-attachments/assets/16d3b105-1770-4f5b-89d1-1d64df70c18d" />
+)
 *The sender can track the message and delivery partner in real time.*
 
-![MessageGo Partner Dashboard](screenshots/partner.png)
+![MessageGo Partner Dashboard](<img width="720" height="1600" alt="partner1" src="https://github.com/user-attachments/assets/c77937d6-7474-4d75-8bbe-3a933888d906" />
+<img width="720" height="1600" alt="partner" src="https://github.com/user-attachments/assets/e76d19fb-8d4a-4a49-9c9a-be2d3b65d23a" />
+)
 *The delivery partner can view available deliveries, accept them, and manage the delivery process.*
 
 # Diagrams
@@ -685,7 +689,8 @@ http://localhost:3000
 
 ## 1. Sending the Message
 
-![MessageGo Send Screen](screenshots/send.png)
+![MessageGo Send Screen](<img width="1080" height="2400" alt="sender" src="https://github.com/user-attachments/assets/2d124935-b394-41f0-9df3-1d1f87458c26" />
+)
 
 *He could have just texted her. He chose this instead.*
 
@@ -693,7 +698,8 @@ http://localhost:3000
 
 ## 2. Live Tracking
 
-![MessageGo Live Tracking](screenshots/tracking.png)
+![MessageGo Live Tracking](<img width="720" height="1600" alt="tracking" src="https://github.com/user-attachments/assets/5b2fa6ec-e823-4b1c-b326-ad423b82a016" />
+)
 
 *The message is moving. His relationship isn't.*
 
@@ -701,7 +707,8 @@ http://localhost:3000
 
 ## 3. Partner Dashboard
 
-![MessageGo Partner Dashboard](screenshots/partner.png)
+![MessageGo Partner Dashboard](<img width="720" height="1600" alt="partner" src="https://github.com/user-attachments/assets/8d5a67c9-0825-41a8-b4ca-d07979f3d798" />
+)
 
 *Someone is finally putting effort into delivering his message.*
 
@@ -709,7 +716,8 @@ http://localhost:3000
 
 ## 4. Recipient Handoff
 
-![MessageGo Recipient](screenshots/recipient.png)
+![MessageGo Recipient](<img width="720" height="1600" alt="recipient" src="https://github.com/user-attachments/assets/843ce98f-c42b-4f14-8253-8531e5c7c2cc" />
+)
 
 *After travelling all that distance, the message still needs permission to be opened.*
 
@@ -717,7 +725,8 @@ http://localhost:3000
 
 ## 5. Pigeon Express
 
-![MessageGo Pigeon](screenshots/pigeon.png)
+![MessageGo Pigeon](<img width="720" height="1600" alt="pegion" src="https://github.com/user-attachments/assets/ed0e86d4-04e9-4047-b659-036bb91885bd" />
+)
 
 *When your message needs more emotional distance, send a pigeon.*
 
