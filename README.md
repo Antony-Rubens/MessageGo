@@ -1,24 +1,10 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
+<img width="1280" height="640" alt="MessageGo" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
+# MESSAGEGO 💌
 
+## We don't send messages. We deliver them.
 
-# MESSAGEGO 🎯
-
-### We don't send messages. We deliver them.
-
-> **What if sending a message actually required someone to deliver it?**
-
-MessageGo is a deliberately over-engineered physical messaging system built for **TinkerHub Useless Projects 2026**.
-
-Instead of sending a message instantly through the internet, MessageGo turns it into a real delivery:
-
-**Sender → Delivery Partner → Destination → Verified Handoff → Message Unlocked**
-
-For short distances, a real human delivery partner carries the message using **live GPS tracking**.
-
-For long distances, a **simulated pigeon** takes over, travelling across the map according to distance and speed.
-
-Because apparently, WhatsApp was too efficient.
+### Because apparently, "I see you as a friend" wasn't painful enough.
 
 ---
 
@@ -33,144 +19,137 @@ Because apparently, WhatsApp was too efficient.
 
 ---
 
-# 💡 The Idea
+# 💔 The Problem
 
-Modern messaging has become ridiculously convenient.
+You finally gather the courage.
 
-You type.
+You type the paragraph.
 
-You press send.
+You reread it 17 times.
 
-Someone receives it.
+You delete half of it.
 
-**Done.**
+You type it again.
 
-MessageGo asks:
+You send it.
 
-> **What if it wasn't?**
+And then she replies:
 
-We built a messaging platform where a message is treated like a physical package.
+> **"Aww, you're such a good friend."**
 
-The sender doesn't simply send a message — they create a **delivery**.
+Congratulations.
 
-The message remains sealed while it travels.
+You have been promoted to:
 
-The recipient only gets access after the delivery reaches its destination and the handoff is verified.
+# FRIEND.
 
----
+No salary.
+No benefits.
+No chance of promotion.
 
-# 🤨 The Problem (that doesn't exist)
+So we asked an important question:
 
-We have solved almost every problem associated with digital messaging.
-
-Messages travel instantly.
-
-Files travel instantly.
-
-Photos travel instantly.
-
-So naturally, we identified the biggest remaining problem:
-
-## **Messages are arriving way too quickly.**
-
-Other problems we decided to solve:
-
-- People don't get enough exercise from sending texts.
-- Messages lack a proper transportation infrastructure.
-- There is no satisfying way to track a message moving toward you.
-- Digital messages have become suspiciously convenient.
-- Nobody knows where their message is physically located at any given moment.
-- Pigeons have been unfairly excluded from modern communication systems.
+### What if your message could at least suffer the way you did?
 
 ---
 
-# 🕊️ The Solution (that nobody asked for)
+# 🚚 The Solution
 
-## Introducing MessageGo.
+## Introducing **MessageGo**
 
-A physical messaging network disguised as a modern delivery platform.
+A revolutionary messaging platform designed for people who:
 
-Instead of:
+- Took 45 minutes to write a 3-line message.
+- Checked "last seen" 38 times.
+- Overanalysed a "haha".
+- Thought "take care ❤️" meant something.
+- Got called "bro".
+- And still somehow decided to send another message.
+
+MessageGo doesn't deliver your message instantly.
+
+### We make it travel.
+
+Because instant delivery is apparently too kind.
+
+---
+
+# 🧍 HUMAN DELIVERY
+
+For nearby destinations, your message gets assigned to a real human delivery partner.
+
+The process is simple:
 
 ```text
-SEND → RECEIVED
+You write the message
+        ↓
+You regret sending it
+        ↓
+Delivery partner accepts
+        ↓
+Partner picks it up
+        ↓
+Partner physically travels
+        ↓
+You track them in real time
+        ↓
+They reach her
+        ↓
+She still says "you're such a good friend"
 ````
 
-MessageGo creates:
+### Human Delivery = REAL GPS
 
-```text
-CREATE
-   ↓
-PARTNER SEARCH
-   ↓
-PARTNER ASSIGNED
-   ↓
-ACCEPTED
-   ↓
-PICKUP VERIFIED
-   ↓
-IN TRANSIT
-   ↓
-ARRIVED
-   ↓
-HANDOFF VERIFIED
-   ↓
-DELIVERED
-   ↓
-MESSAGE UNLOCKED
-```
+Yes.
 
-Every delivery has a real state.
+An actual human moves.
 
-Every movement can be tracked.
+Their location is tracked using the browser's Geolocation API.
 
-Every handoff requires verification.
+Because if your feelings are going nowhere,
 
-And the message stays sealed until it reaches the recipient.
+at least your message is.
 
 ---
 
-# 🚚 Two Ways to Deliver a Message
+# 🕊️ PIGEON EXPRESS
 
-## 🧍 Human Delivery
+Sometimes the person you want to message is far away.
 
-For nearby destinations, MessageGo uses a real human delivery partner.
+Naturally, we could use the internet.
 
-The partner:
+But where's the fun in that?
 
-1. Accepts the delivery.
-2. Travels toward the pickup location.
-3. Verifies pickup.
-4. Carries the sealed message.
-5. Shares live GPS coordinates.
-6. Reaches the recipient.
-7. Completes the handoff.
+So we introduced:
 
-The sender can watch the delivery move in real time.
+# PIGEON EXPRESS™
 
-### Human delivery = REAL GPS
-
-The carrier's browser uses the **Geolocation API** to continuously report their position.
-
----
-
-## 🕊️ Pigeon Express
-
-For longer distances, humans are clearly not the optimal solution.
-
-So we use pigeons.
-
-A simulated pigeon travels between the origin and destination using:
+Your message gets assigned a pigeon and begins its heroic journey.
 
 ```text
-Travel Time = Distance / Pigeon Speed
+Origin
+  ↓
+Pigeon gets message
+  ↓
+Pigeon questions your life choices
+  ↓
+Flight begins
+  ↓
+Live tracking
+  ↓
+Distance decreases
+  ↓
+Hope decreases
+  ↓
+Pigeon arrives
+  ↓
+She replies:
+"You're like a brother to me."
 ```
 
-The pigeon moves across the map while the delivery state updates in real time.
+### Pigeon Delivery = SIMULATED GPS
 
-### Pigeon delivery = SIMULATED GPS
-
-This isn't just a loading animation.
+The pigeon isn't just randomly flying around the screen.
 
 The system calculates:
 
@@ -182,177 +161,184 @@ The system calculates:
 * Remaining distance
 * ETA
 
-The pigeon is effectively treated as another transport layer.
+So technically...
+
+**your pigeon has better direction than you had in that relationship.**
 
 ---
 
-# 🔐 The Message Stays Sealed
+# 🔐 SEALED MESSAGE
 
-The delivery partner should deliver the message.
+Don't worry.
 
-They should **not read it**.
+Your delivery partner can't read your message.
 
-MessageGo therefore encrypts the message before storing it.
+The message is encrypted before being stored.
 
-The current prototype uses:
+Currently using:
 
 ### AES-GCM 256-bit encryption
 
-The encrypted ciphertext is stored instead of the plaintext message.
+So while the carrier knows:
 
-The message is decrypted on the recipient side after successful handoff verification.
+> "I am delivering a message."
 
-### Important
+They don't know:
 
-This implementation is a **prototype encryption model**, not production-grade end-to-end encryption, because the demo key is also stored in the database.
+> "I have liked you since second year and I don't know how to tell you."
 
-The purpose is to demonstrate the architectural idea:
-
-> **Transport the message without exposing its contents to the carrier.**
+That's between you and the database.
 
 ---
 
-# 🔑 Verified Handoff
+# 🔑 HANDOFF VERIFICATION
 
-Arrival alone isn't enough.
+The message doesn't unlock just because the delivery reaches the destination.
 
-The recipient must prove that the physical delivery has actually reached them.
-
-When the delivery reaches:
+The recipient has to enter a **6-digit handoff code**.
 
 ```text
 ARRIVED
+   ↓
+"What's the code?"
+   ↓
+Recipient enters code
+   ↓
+Code verified
+   ↓
+Message unlocked
 ```
 
-MessageGo generates a **6-digit handoff code**.
+Finally...
 
-The recipient enters the code.
-
-If it matches:
-
-```text
-ARRIVED
-      ↓
-HANDOFF VERIFIED
-      ↓
-DELIVERED
-      ↓
-MESSAGE UNLOCKED
-```
-
-This creates a simple chain of custody between transportation and message access.
+A system that requires more verification than your relationship.
 
 ---
 
-# 🗺️ Live Delivery Tracking
+# 🧠 THE DELIVERY PIPELINE
 
-Every delivery has its own tracking page.
+Every message goes through a beautiful, unnecessarily complicated journey:
 
-The map displays:
+```text
+┌───────────────┐
+│    CREATED    │
+└───────┬───────┘
+        ↓
+┌───────────────────┐
+│  PARTNER SEARCH   │
+└────────┬──────────┘
+         ↓
+┌───────────────────┐
+│ PARTNER ASSIGNED  │
+└────────┬──────────┘
+         ↓
+┌───────────────┐
+│   ACCEPTED    │
+└───────┬───────┘
+        ↓
+┌──────────────────┐
+│ PICKUP VERIFIED  │
+└────────┬─────────┘
+         ↓
+┌──────────────────┐
+│   IN TRANSIT     │
+└────────┬─────────┘
+         ↓
+┌───────────────┐
+│    ARRIVED    │
+└───────┬───────┘
+        ↓
+┌────────────────────┐
+│ HANDOFF VERIFIED   │
+└─────────┬──────────┘
+          ↓
+┌────────────────┐
+│    DELIVERED   │
+└────────┬───────┘
+         ↓
+┌──────────────────┐
+│ MESSAGE UNLOCKED │
+└──────────────────┘
+```
 
-* Sender location
-* Recipient location
-* Current carrier location
-* Delivery route
-* Distance travelled
-* Remaining distance
+Meanwhile, your romantic relationship:
+
+```text
+YOU
+ ↓
+LIKE HER
+ ↓
+TEXT HER
+ ↓
+OVERTHINK
+ ↓
+CONFESS
+ ↓
+"You're such a good friend"
+ ↓
+💀
+```
+
+---
+
+# 🗺️ LIVE TRACKING
+
+Because waiting for someone to reply isn't stressful enough.
+
+MessageGo lets you track your message in real time.
+
+You can see:
+
+* Current location
+* Destination
+* Route
+* Distance remaining
 * ETA
-* Current delivery state
+* Delivery status
+* Carrier
 
-The tracking interface updates through **Supabase Realtime**.
+So instead of staring at:
 
-No page refresh required.
+> **"Last seen 2 hours ago"**
 
----
+you can stare at:
 
-# 🧠 Delivery State Machine
+> **"Message is 3.4 km away."**
 
-MessageGo isn't just moving a marker around a map.
-
-Every delivery follows a controlled state machine:
-
-```text
-                    ┌───────────────┐
-                    │    CREATED    │
-                    └───────┬───────┘
-                            ↓
-                 ┌─────────────────────┐
-                 │   PARTNER SEARCH    │
-                 └──────────┬──────────┘
-                            ↓
-                 ┌─────────────────────┐
-                 │  PARTNER ASSIGNED   │
-                 └──────────┬──────────┘
-                            ↓
-                     ┌────────────┐
-                     │  ACCEPTED  │
-                     └─────┬──────┘
-                           ↓
-                 ┌──────────────────┐
-                 │ PICKUP VERIFIED  │
-                 └────────┬─────────┘
-                          ↓
-                 ┌──────────────────┐
-                 │    IN TRANSIT    │
-                 └────────┬─────────┘
-                          ↓
-                    ┌───────────┐
-                    │  ARRIVED  │
-                    └─────┬─────┘
-                          ↓
-               ┌────────────────────┐
-               │ HANDOFF VERIFIED   │
-               └─────────┬──────────┘
-                         ↓
-                   ┌───────────┐
-                   │ DELIVERED │
-                   └───────────┘
-
-              At appropriate stages:
-                         ↓
-                    CANCELLED
-```
-
-This lifecycle drives:
-
-* UI
-* GPS tracking
-* Carrier actions
-* Recipient access
-* Verification
-* Realtime updates
-* Cancellation
-* Database state
+Progress.
 
 ---
 
-# 🧑‍💻 User Roles
+# 👨‍💻 THREE PEOPLE. ONE MESSAGE. ZERO ROMANTIC PROGRESS.
 
-MessageGo has three primary actors.
+MessageGo supports three roles.
 
-## Sender
+---
 
-Creates and tracks deliveries.
+## 💌 SENDER
+
+The brave individual who thinks:
+
+> "This time she'll understand."
 
 Can:
 
-* Enter recipient information
-* Write the message
+* Write a message
 * Choose delivery method
-* Create delivery
-* Track the carrier
-* Cancel eligible deliveries
+* Create a delivery
+* Track the message
+* Cancel the delivery
 
 ---
 
-## Delivery Partner
+## 🧍 DELIVERY PARTNER
 
-Acts as the transportation layer.
+The only person actually doing something productive.
 
 Can:
 
 * View available deliveries
-* Accept deliveries
+* Accept a delivery
 * Navigate to pickup
 * Verify pickup
 * Start delivery
@@ -360,25 +346,35 @@ Can:
 * Complete delivery
 * Cancel eligible deliveries
 
-The partner never needs access to the actual message contents.
+The partner cannot read the sealed message.
+
+Unlike your friends who definitely already know what happened.
 
 ---
 
-## Recipient
+## 📩 RECIPIENT
 
-Receives the physical delivery.
+The person who may or may not have been waiting for the message.
 
 Can:
 
 * View incoming deliveries
-* Track delivery progress
-* See arrival status
+* Track delivery
+* Confirm arrival
 * Enter handoff code
-* Unlock the delivered message
+* Unlock the message
+
+And possibly respond with:
+
+> "Awwww ❤️"
+
+Which is either romantic...
+
+or the most dangerous sentence in the English language.
 
 ---
 
-# ⚙️ Technical Details
+# ⚙️ TECH STACK
 
 ## Software
 
@@ -416,126 +412,99 @@ Can:
 
 ---
 
-# 🏗️ Architecture
+# 🏗️ ARCHITECTURE
 
 ```text
                          MESSAGEGO
                              │
-             ┌───────────────┼───────────────┐
-             │               │               │
-          SENDER           PARTNER        RECIPIENT
-             │               │               │
-             │               │               │
-             └───────────────┼───────────────┘
+                             ↓
+                         SENDER
                              │
-                        NEXT.JS APP
+                             ↓
+                     ENCRYPT MESSAGE
                              │
-              ┌──────────────┼──────────────┐
-              │              │              │
-          SUPABASE         LEAFLET       CRYPTO
-              │              │              │
-       ┌──────┼──────┐       │         AES-GCM
-       │      │      │       │
-     AUTH    DB   REALTIME   │
-       │      │      │       │
-       │      │      └───────┤
-       │      │              │
-       │      └──── Delivery │ Tracking
-       │                     │
-       └──────── Users       │
+                             ↓
+                    CREATE DELIVERY
                              │
-                  ┌──────────┴──────────┐
-                  │                     │
-             HUMAN CARRIER         PIGEON
-             REAL GPS            SIMULATED GPS
+                     ┌───────┴───────┐
+                     ↓               ↓
+                  HUMAN           PIGEON
+                REAL GPS        SIMULATED GPS
+                     │               │
+                     └───────┬───────┘
+                             ↓
+                       SUPABASE
+                             │
+                ┌────────────┼────────────┐
+                ↓            ↓            ↓
+              AUTH       POSTGRESQL    REALTIME
+                             │
+                             ↓
+                       LIVE TRACKING
+                             │
+                             ↓
+                         RECIPIENT
+                             │
+                             ↓
+                     HANDOFF CODE
+                             │
+                             ↓
+                      MESSAGE UNLOCK
 ```
 
 ---
 
-# 📁 Project Structure
+# 📍 GPS SYSTEM
+
+MessageGo has two different transportation models.
+
+## HUMAN
 
 ```text
-messagego/
-│
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   └── pigeon/
-│   │   ├── delivery/
-│   │   ├── login/
-│   │   ├── partner/
-│   │   ├── recipient/
-│   │   └── send/
-│   │
-│   ├── components/
-│   │   ├── DeliveryActions.tsx
-│   │   ├── LiveDeliveryMap.tsx
-│   │   ├── LiveDeliveryTracker.tsx
-│   │   ├── LocationPicker.tsx
-│   │   ├── Map.tsx
-│   │   └── PigeonSimulator.tsx
-│   │
-│   └── lib/
-│       ├── crypto.ts
-│       ├── delivery.ts
-│       ├── distance.ts
-│       ├── geofence.ts
-│       ├── handoff.ts
-│       ├── pigeon.ts
-│       └── supabase/
-│
-├── public/
-├── package.json
-└── README.md
+Phone / Laptop GPS
+       ↓
+Geolocation API
+       ↓
+Supabase
+       ↓
+Realtime
+       ↓
+Live Map
 ```
+
+Actual human movement.
+
+Actual coordinates.
+
+Actual delivery.
 
 ---
 
-# 🚀 Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Antony-Rubens/MessageGo.git
-cd MessageGo
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Configure environment variables
-
-Create:
+## PIGEON
 
 ```text
-.env.local
+Origin + Destination
+        ↓
+Distance Calculation
+        ↓
+Pigeon Speed
+        ↓
+Position Interpolation
+        ↓
+Supabase
+        ↓
+Realtime
+        ↓
+Animated Map
 ```
 
-Add your Supabase credentials:
+Not actual pigeon movement.
 
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
-```
-
-### 4. Start the development server
-
-```bash
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:3000
-```
+We have standards.
 
 ---
 
-# 🗄️ Database
+# 🗄️ DATABASE
 
 MessageGo uses PostgreSQL through Supabase.
 
@@ -551,269 +520,159 @@ delivery_events
 
 The database handles:
 
-* User profiles
+* Users
 * Messages
-* Carrier records
-* Delivery state
+* Carriers
+* Delivery states
 * GPS coordinates
 * ETA
 * Delivery events
 * Handoff verification
+* Carrier availability
 
-Row Level Security is used to restrict access based on the user's role and relationship to a delivery.
-
----
-
-# 📍 GPS Architecture
-
-One of the core design decisions of MessageGo is separating **real transportation** from **simulated transportation**.
-
-```text
-              DELIVERY
-                  │
-          ┌───────┴───────┐
-          │               │
-       HUMAN           PIGEON
-          │               │
-     Browser GPS      Simulator
-          │               │
-          └───────┬───────┘
-                  ↓
-           Current Position
-                  ↓
-          Supabase Realtime
-                  ↓
-              Live Map
-```
-
-### Human
-
-```text
-Device GPS
-    ↓
-Geolocation API
-    ↓
-Supabase
-    ↓
-Realtime
-    ↓
-Sender / Recipient Map
-```
-
-### Pigeon
-
-```text
-Origin + Destination
-          ↓
-Distance Calculation
-          ↓
-Speed Model
-          ↓
-Position Interpolation
-          ↓
-Supabase
-          ↓
-Realtime
-          ↓
-Animated Map
-```
+Because apparently a simple text message needed a database architecture.
 
 ---
 
-# 📏 Distance & ETA
+# 🔒 SECURITY
 
-Delivery distance is calculated from geographic coordinates.
+The delivery partner shouldn't know what you're saying.
 
-The system uses the distance between:
+They only need to know:
 
-```text
-Origin
-   ↓
-Destination
-```
+> "Take this thing there."
 
-to determine the appropriate delivery method and estimated travel time.
+MessageGo separates:
 
-For the simulated pigeon:
+### MESSAGE LAYER
 
-```text
-ETA = Distance / Speed
-```
+from
 
-The current position is continuously interpolated between origin and destination.
+### TRANSPORT LAYER
 
----
+The carrier can access delivery information without needing the plaintext message.
 
-# 🛡️ Security & Privacy
-
-MessageGo separates the **message layer** from the **transport layer**.
-
-The delivery partner receives:
-
-* Delivery information
-* Pickup information
-* Destination information
-* Transport state
-
-But does not need access to:
-
-* Plaintext message
-* Recipient's message content
-
-Additional protections include:
+The system also uses:
 
 * Supabase Authentication
-* PostgreSQL Row Level Security
+* Row Level Security
 * Encrypted message storage
 * Handoff verification
-* Role-based access rules
+* Role-based access
 * Delivery state validation
 
 ---
 
-# 📸 Screenshots
+# 🚀 INSTALLATION
 
-> Replace the paths below with the final screenshots uploaded to the repository.
+## 1. Clone the repository
 
-### 1. Message Creation
+```bash
+git clone https://github.com/Antony-Rubens/MessageGo.git
+cd MessageGo
+```
+
+## 2. Install dependencies
+
+```bash
+npm install
+```
+
+## 3. Create environment variables
+
+Create:
+
+```text
+.env.local
+```
+
+Add:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
+```
+
+## 4. Run the application
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# 📸 SCREENSHOTS
+
+## 1. Sending the Message
 
 ![MessageGo Send Screen](screenshots/send.png)
 
-*The sender creates a message and chooses between Human Express and Pigeon Express.*
+*He could have just texted her. He chose this instead.*
 
 ---
 
-### 2. Live Delivery Tracking
+## 2. Live Tracking
 
 ![MessageGo Live Tracking](screenshots/tracking.png)
 
-*The sender watches the delivery move toward its destination with live position, route, distance and ETA.*
+*The message is moving. His relationship isn't.*
 
 ---
 
-### 3. Partner Dashboard
+## 3. Partner Dashboard
 
 ![MessageGo Partner Dashboard](screenshots/partner.png)
 
-*The delivery partner manages available requests, pickup verification and delivery progress.*
+*Someone is finally putting effort into delivering his message.*
 
 ---
 
-### 4. Recipient Handoff
+## 4. Recipient Handoff
 
 ![MessageGo Recipient](screenshots/recipient.png)
 
-*The recipient enters the handoff code before the sealed message is unlocked.*
+*After travelling all that distance, the message still needs permission to be opened.*
 
 ---
 
-### 5. Pigeon Express
+## 5. Pigeon Express
 
 ![MessageGo Pigeon](screenshots/pigeon.png)
 
-*The simulated pigeon travels between distant locations while the delivery state updates in real time.*
+*When your message needs more emotional distance, send a pigeon.*
 
 ---
 
-# 🧩 Workflow
+# 🧪 DEMO
+
+## Human Delivery
 
 ```text
-┌──────────────┐
-│    SENDER    │
-└──────┬───────┘
-       │
-       │ Create message
-       ↓
-┌────────────────────┐
-│ Encrypt & Store    │
-│ Message            │
-└─────────┬──────────┘
-          │
-          ↓
-┌────────────────────┐
-│ Create Delivery    │
-└─────────┬──────────┘
-          │
-          ↓
-     Choose Carrier
-          │
-     ┌────┴─────┐
-     ↓          ↓
-  HUMAN       PIGEON
-  REAL GPS    SIMULATED
-     │          │
-     └────┬─────┘
-          ↓
-      IN TRANSIT
-          │
-          ↓
-       ARRIVED
-          │
-          ↓
-   HANDOFF CODE
-      VERIFIED
-          │
-          ↓
-      DELIVERED
-          │
-          ↓
-  MESSAGE UNLOCKED
-```
-
----
-
-# 🎥 Project Demo
-
-## Video
-
-> Add the final demo video link here.
-
-The demonstration shows the complete multi-device workflow:
-
-```text
-DEVICE 1 — SENDER
-        ↓
-Creates Message
-        ↓
-DEVICE 2 — PARTNER
-        ↓
-Accepts & Carries
-        ↓
-Live GPS Movement
-        ↓
-DEVICE 3 — RECIPIENT
-        ↓
-Receives Delivery
-        ↓
-Enters Handoff Code
-        ↓
-Message Unlocks
-```
-
----
-
-# 🧪 Demo Scenarios
-
-## Scenario 1 — Human Delivery
-
-```text
-Sender
+SENDER
   ↓
-Creates nearby delivery
+Writes message
   ↓
-Partner receives request
+Message encrypted
+  ↓
+Delivery created
   ↓
 Partner accepts
   ↓
 Pickup verified
   ↓
-Partner moves physically
+Partner physically travels
   ↓
 GPS updates in realtime
   ↓
-Recipient sees movement
+Recipient watches delivery
   ↓
-Arrival
+Partner arrives
   ↓
 Handoff code
   ↓
@@ -822,12 +681,12 @@ Message unlocked
 
 ---
 
-## Scenario 2 — Pigeon Express
+# 🕊️ PIGEON DEMO
 
 ```text
-Sender
+SENDER
   ↓
-Creates long-distance delivery
+Long-distance delivery
   ↓
 Pigeon assigned
   ↓
@@ -835,13 +694,11 @@ Distance calculated
   ↓
 ETA calculated
   ↓
-Pigeon begins flight
+Pigeon starts flying
   ↓
-Position updates
+Live position updates
   ↓
-Live map animation
-  ↓
-Destination reached
+Pigeon reaches destination
   ↓
 Handoff verification
   ↓
@@ -850,96 +707,88 @@ Message unlocked
 
 ---
 
-## Scenario 3 — Cancellation
+# 🧨 CANCELLATION
 
-Eligible deliveries can be cancelled by the sender or delivery partner.
+Sometimes you realize:
 
-When cancelled:
+> "Maybe I shouldn't send this."
+
+Good news.
+
+You can cancel eligible deliveries.
 
 ```text
 DELIVERY
    ↓
-CANCELLED
+CANCEL
    ↓
-Carrier Released
+MESSAGE DOESN'T ARRIVE
    ↓
-Carrier Available Again
+YOU KEEP YOUR DIGNITY
 ```
 
-This keeps the delivery lifecycle consistent even when a transport attempt fails.
+At least one of these things is still recoverable.
 
 ---
 
-# 🧠 What We Learned
+# 🧠 WHY DID WE BUILD THIS?
 
-Building MessageGo forced us to deal with problems that normal messaging apps conveniently avoid:
+We could have built another:
 
-* Real-time state synchronization
+* AI chatbot
+* Expense tracker
+* To-do app
+* Weather app
+* Productivity dashboard
+* "Revolutionary" student management system
+
+Instead, we asked:
+
+### "What is the least efficient way to send a text?"
+
+And then actually engineered it.
+
+Underneath the joke, MessageGo demonstrates:
+
+* Full-stack development
+* Authentication
+* PostgreSQL
+* Realtime systems
 * GPS tracking
-* Geofencing
-* Delivery state machines
+* Geospatial calculations
+* State machines
+* Encryption
 * Role-based access
-* Database security
-* Realtime subscriptions
-* Simulated movement
-* ETA calculation
-* Message encryption
-* Handoff verification
-* Multi-device testing
+* Simulation
+* Multi-device communication
 
-The project started as a joke.
+The idea is useless.
 
-The engineering didn't.
+### The engineering isn't.
 
 ---
 
-# 🏆 Why MessageGo?
+# 🏆 WHAT MAKES MESSAGEGO DIFFERENT?
 
-Most projects try to solve a problem.
+Most projects say:
 
-MessageGo deliberately creates one.
+> **"We solved a real-world problem."**
 
-But underneath the absurd idea is a real distributed system involving:
+MessageGo says:
 
-**Authentication + Database + Realtime Communication + GPS + Encryption + Geospatial Logic + State Machines + Simulation**
+> **"We created a completely unnecessary problem and then built an unnecessarily sophisticated solution for it."**
 
-The useless problem became a useful engineering playground.
-
----
-
-# 📌 Project Status
-
-### Current prototype includes
-
-* [x] Sender interface
-* [x] Recipient interface
-* [x] Delivery partner interface
-* [x] Supabase authentication
-* [x] PostgreSQL database
-* [x] Row Level Security
-* [x] Realtime delivery updates
-* [x] Human delivery mode
-* [x] Real GPS tracking
-* [x] Pigeon delivery simulation
-* [x] Live map
-* [x] Distance calculation
-* [x] ETA calculation
-* [x] Delivery state machine
-* [x] Message encryption
-* [x] Pickup verification
-* [x] Handoff verification
-* [x] Delivery cancellation
-* [x] Carrier availability management
+And that's the beauty of a Useless Project.
 
 ---
 
-# 🔮 Future Ideas
+# 🔮 FUTURE FEATURES
 
-Because apparently this wasn't unnecessary enough.
+Because apparently we haven't suffered enough.
 
-Possible future additions:
+Possible future upgrades:
 
-* QR-based handoff verification
+* QR-based handoff
 * Physical thermal-printed messages
 * Pigeon personality system
 * Delivery ratings
@@ -950,21 +799,35 @@ Possible future additions:
 * Real-world IoT delivery devices
 * AR delivery visualization
 
+And perhaps...
+
+### A "She Said Yes" delivery status.
+
+We are currently waiting for a test case.
+
 ---
 
-# ⚠️ Disclaimer
+# ⚠️ DISCLAIMER
 
 MessageGo is a **Useless Project**.
 
-Please do not actually trust a pigeon with your confidential documents.
+Please do not:
 
-The current encryption implementation is intended for demonstration and should not be considered production-grade end-to-end encryption.
+* Trust pigeons with confidential documents.
+* Use MessageGo to stalk your crush.
+* Interpret delivery status as relationship status.
+* Assume "you're such a good friend" is secretly romantic.
+* Send 14 consecutive deliveries because she hasn't replied.
+
+The encryption implementation is a prototype and should not be considered production-grade end-to-end encryption.
 
 ---
 
-# 👥 Team Contributions
+# 👥 TEAM CONTRIBUTIONS
 
-### Antony Rubens — Team Lead
+## Antony Rubens
+
+**Team Lead — Albertian Institute of Science and Technology**
 
 * Full-stack architecture
 * Next.js application
@@ -979,13 +842,53 @@ The current encryption implementation is intended for demonstration and should n
 * UI/UX
 * Integration and testing
 
-### Alan Verghese Mathew — Team Member
+## Alan Verghese Mathew
+
+**Team Member — Albertian Institute of Science and Technology**
 
 * Project development
 * Feature integration
 * Testing
 * Demo preparation
 * Documentation support
+
+---
+
+# ❤️ THE MESSAGEGO PHILOSOPHY
+
+A normal messaging app:
+
+```text
+"Hey"
+   ↓
+Delivered
+```
+
+MessageGo:
+
+```text
+"Hey"
+   ↓
+Encrypted
+   ↓
+Assigned to a human
+   ↓
+Picked up
+   ↓
+Physically transported
+   ↓
+GPS tracked
+   ↓
+Arrived
+   ↓
+Handoff verified
+   ↓
+Finally unlocked
+```
+
+Because if you're going to get friendzoned...
+
+### At least make the message work for it.
 
 ---
 
@@ -1005,7 +908,7 @@ The current encryption implementation is intended for demonstration and should n
 
 ## We deliver them.
 
-**Team DevEmphasis**
+### — Team DevEmphasis —
 
 </p>
 ```
