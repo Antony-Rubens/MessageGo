@@ -15,7 +15,12 @@
 
 
 ### Project Description
-[2-3 lines about what your project does]
+
+Project Description
+
+Welcome to a project nobody asked for, nobody needed, and yet somehow we spent an unreasonable amount of time building.
+
+This masterpiece exists to solve an incredibly important problem that could have been avoided by simply doing absolutely nothing. But where’s the fun in that?
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
