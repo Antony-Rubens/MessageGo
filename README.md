@@ -4,72 +4,8 @@
 
 ## We don't send messages. We deliver them.
 
-<<<<<<< HEAD
 # MESSAGEGO 🎯
 
-
-## Basic Details
-### Team Name: DevEmphasis
-
-
-### Team Members
-- Team Lead: Antony Rubens - Albertian Institute Of Science and Technology
-- Member 1 : Alan Verghese Mathew - Albertian Institute Of Science and Technology
-
-
-### Project Description
-
-Project Description
-
-Welcome to a project nobody asked for, nobody needed, and yet somehow we spent an unreasonable amount of time building.
-
-This masterpiece exists to solve an incredibly important problem that could have been avoided by simply doing absolutely nothing. But where’s the fun in that?
-
-### The Problem (that doesn't exist)
-
-
-Have you ever woken up and thought:
-
-“You know what would make my life dramatically better? A completely unnecessary solution to a problem I didn't even know I had.”
-
-Yeah. Neither did we.
-
-And yet, here we are.
-
-The world is already suffering from enough serious problems, so naturally, we decided to ignore all of them and tackle this one instead.
-
-Is it a real problem? Absolutely not.
-Is it mildly annoying? Probably.
-Did we need to build an entire project around it? Definitely not.
-
-But someone had to do it.
-
-Unfortunately, that someone was us.
-
-### The Solution (that nobody asked for)
-
-
-MESSAGEGO— a completely over-engineered solution to a problem that exists primarily because we decided it should.
-
-We took a simple, unnecessary idea and gave it:
-
-Way more code than it deserves
-Questionable amounts of logic
-Features nobody requested
-Technology that could have been used for something productive
-And just enough chaos to make us question our life choices
-
-The result?
-
-A beautifully useless piece of technology that does exactly what nobody needed it to do.
-
-Is it practical? No.
-Is it necessary? Absolutely not.
-Does it work? We hope so.
-Was it worth building? Ask us after the caffeine wears off.
-
-In a world full of people trying to change the future,
-we're just here making it unnecessarily complicated.
 
 ## Technical Details
 ### Technologies/Components Used
@@ -140,9 +76,6 @@ For Hardware:
 - [Name 1]: [Specific contributions]
 - [Name 2]: [Specific contributions]
 - [Name 3]: [Specific contributions]
-=======
-### Because apparently, "I see you as a friend" wasn't painful enough.
->>>>>>> upstream/master
 
 ---
 
