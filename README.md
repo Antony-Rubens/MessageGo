@@ -10,9 +10,9 @@
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Antony Rubens - Albertian Institute Of Science and Technology
+- Member 2: Alan Verghese Mathew - Albertian Institute Of Science and Technology
+
 
 ### Project Description
 [2-3 lines about what your project does]
