@@ -2,16 +2,16 @@
 
 
 
-# [Project Name] 🎯
+# MESSAGEGO 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: DevEmphasis
 
 
 ### Team Members
 - Team Lead: Antony Rubens - Albertian Institute Of Science and Technology
-- Member 2: Alan Verghese Mathew - Albertian Institute Of Science and Technology
+- Member 1 : Alan Verghese Mathew - Albertian Institute Of Science and Technology
 
 
 ### Project Description
