@@ -1,3 +1,6 @@
+
+
+````markdown
 <img width="1280" height="640" alt="MessageGo" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 # MESSAGEGO 💌
@@ -6,54 +9,75 @@
 
 # MESSAGEGO 🎯
 
+MessageGo is a deliberately unnecessary but fully functional physical messaging platform built for **TinkerHub Useless 3.0**.
 
+Instead of simply pressing "Send", MessageGo turns your digital message into an actual delivery journey.
+
+Nearby messages are delivered by real human delivery partners using live GPS.
+
+Long-distance messages are delivered by simulated pigeons.
+
+Because apparently pressing "send" was too easy.
 
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![MessageGo Send Screen](screenshots/send.png)
+*The sender creates a message, chooses a delivery method, and starts the delivery.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![MessageGo Live Tracking](screenshots/tracking.png)
+*The sender can track the message and delivery partner in real time.*
+
+![MessageGo Partner Dashboard](screenshots/partner.png)
+*The delivery partner can view available deliveries, accept them, and manage the delivery process.*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+
+![MessageGo Architecture](screenshots/architecture.png)
+*Architecture showing the sender, delivery partners, Supabase backend, realtime tracking, and recipient flow.*
 
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+Not applicable — MessageGo is a software-only web application.
+
+*No physical circuit or electronic hardware is required.*
+
+![Schematic](screenshots/architecture.png)
+*Software architecture showing the communication between the application, Supabase services, delivery partners, and recipients.*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+Not applicable — MessageGo is implemented as a web-based software platform.
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![Components](screenshots/software.png)
+*The project consists of software components including the Next.js frontend, Supabase backend, database, authentication, realtime services, GPS tracking, and pigeon simulation.*
+
+![Build](screenshots/development.png)
+*Development process involving frontend development, backend integration, database configuration, realtime communication, GPS tracking, and testing.*
+
+![Final](screenshots/final.png)
+*Final MessageGo web application with sender, delivery partner, recipient, live tracking, and pigeon delivery functionality.*
 
 ### Project Demo
+
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+
+[MessageGo — TinkerHub Useless 3.0 Demo](https://youtube.com/shorts/6TiC7TaJLvU?feature=share)
+
+*This demo showcases the complete MessageGo delivery workflow, including message creation, human delivery, real-time GPS tracking, pigeon delivery simulation, recipient handoff verification, and message unlocking.*
 
 # Additional Demos
-[Add any extra demo materials/links]
+
+*The complete project demonstration is included in the video above.*
+
+---
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+
+- **Antony Rubens** — Team Lead: Full-stack development, system architecture, Next.js application, Supabase integration, authentication, database design, realtime tracking, GPS integration, encryption, pigeon simulation, delivery state machine, UI/UX, integration, and testing.
+- **Alan Verghese Mathew** — Team Member: Feature development, integration, testing, documentation, demo preparation, and project support.
 
 ---
 
@@ -100,6 +124,7 @@ So we asked an important question:
 
 ### What if your message could at least suffer the way you did?
 
+
 ---
 
 # 🚚 The Solution
@@ -120,6 +145,7 @@ MessageGo doesn't deliver your message instantly.
 ### We make it travel.
 
 Because instant delivery is apparently too kind.
+
 
 ---
 
@@ -294,7 +320,7 @@ Every message goes through a beautiful, unnecessarily complicated journey:
 └────────┬─────────┘
          ↓
 ┌───────────────┐
-│    ARRIVED    │
+│    ARRIVED     │
 └───────┬───────┘
         ↓
 ┌────────────────────┐
@@ -457,7 +483,7 @@ or the most dangerous sentence in the English language.
 
 ### Deployment
 
-* Vercel-ready Next.js application
+* Vercel
 
 ---
 
@@ -467,38 +493,38 @@ or the most dangerous sentence in the English language.
                          MESSAGEGO
                              │
                              ↓
-                         SENDER
+                          SENDER
                              │
                              ↓
-                     ENCRYPT MESSAGE
+                      ENCRYPT MESSAGE
                              │
                              ↓
-                    CREATE DELIVERY
+                     CREATE DELIVERY
                              │
-                     ┌───────┴───────┐
-                     ↓               ↓
-                  HUMAN           PIGEON
-                REAL GPS        SIMULATED GPS
-                     │               │
-                     └───────┬───────┘
-                             ↓
-                       SUPABASE
-                             │
-                ┌────────────┼────────────┐
-                ↓            ↓            ↓
-              AUTH       POSTGRESQL    REALTIME
-                             │
-                             ↓
-                       LIVE TRACKING
-                             │
-                             ↓
-                         RECIPIENT
-                             │
-                             ↓
-                     HANDOFF CODE
-                             │
-                             ↓
-                      MESSAGE UNLOCK
+                      ┌───────┴───────┐
+                      ↓               ↓
+                   HUMAN           PIGEON
+                 REAL GPS        SIMULATED GPS
+                      │               │
+                      └───────┬───────┘
+                              ↓
+                           SUPABASE
+                              │
+                 ┌────────────┼────────────┐
+                 ↓            ↓            ↓
+               AUTH       POSTGRESQL    REALTIME
+                              │
+                              ↓
+                         LIVE TRACKING
+                              │
+                              ↓
+                          RECIPIENT
+                              │
+                              ↓
+                         HANDOFF CODE
+                              │
+                              ↓
+                        MESSAGE UNLOCK
 ```
 
 ---
