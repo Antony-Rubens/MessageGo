@@ -10,7 +10,7 @@ function getRedirectPath(
 ): string {
   const normalizedEmail = email.toLowerCase().trim();
 
-  if (normalizedEmail === "partner@messagego.demo") {
+  if (normalizedEmail === "antonyrubens@gmail.com") {
     return "/partner";
   }
 
@@ -18,7 +18,7 @@ function getRedirectPath(
     return "/recipient";
   }
 
-  if (normalizedEmail === "sender@messagego.demo") {
+  if (normalizedEmail === "antony.rubens.10@gmail.com") {
     return "/send";
   }
 
@@ -198,8 +198,8 @@ export default function LoginPage() {
                 type="button"
                 onClick={() =>
                   fillDemoAccount(
-                    "sender@messagego.demo",
-                    "MessageGo123!"
+                    "antony.rubens.10@gmail.com",
+                    "ANCYantony10"
                   )
                 }
                 className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-left hover:bg-neutral-50 transition"
@@ -217,8 +217,8 @@ export default function LoginPage() {
                 type="button"
                 onClick={() =>
                   fillDemoAccount(
-                    "partner@messagego.demo",
-                    "MessageGo123!"
+                    "antonyrubens@gmail.com",
+                    "ANCYantony10"
                   )
                 }
                 className="w-full rounded-xl border border-neutral-200 px-4 py-3 text-left hover:bg-neutral-50 transition"
