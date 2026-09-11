@@ -44,7 +44,29 @@ But someone had to do it.
 Unfortunately, that someone was us.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+
+MESSAGEGO— a completely over-engineered solution to a problem that exists primarily because we decided it should.
+
+We took a simple, unnecessary idea and gave it:
+
+Way more code than it deserves
+Questionable amounts of logic
+Features nobody requested
+Technology that could have been used for something productive
+And just enough chaos to make us question our life choices
+
+The result?
+
+A beautifully useless piece of technology that does exactly what nobody needed it to do.
+
+Is it practical? No.
+Is it necessary? Absolutely not.
+Does it work? We hope so.
+Was it worth building? Ask us after the caffeine wears off.
+
+In a world full of people trying to change the future,
+we're just here making it unnecessarily complicated.
 
 ## Technical Details
 ### Technologies/Components Used
