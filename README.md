@@ -23,7 +23,25 @@ Welcome to a project nobody asked for, nobody needed, and yet somehow we spent a
 This masterpiece exists to solve an incredibly important problem that could have been avoided by simply doing absolutely nothing. But where’s the fun in that?
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+
+Have you ever woken up and thought:
+
+“You know what would make my life dramatically better? A completely unnecessary solution to a problem I didn't even know I had.”
+
+Yeah. Neither did we.
+
+And yet, here we are.
+
+The world is already suffering from enough serious problems, so naturally, we decided to ignore all of them and tackle this one instead.
+
+Is it a real problem? Absolutely not.
+Is it mildly annoying? Probably.
+Did we need to build an entire project around it? Definitely not.
+
+But someone had to do it.
+
+Unfortunately, that someone was us.
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]
