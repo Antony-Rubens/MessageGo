@@ -1016,7 +1016,7 @@ Because if you're going to get friendzoned...
 
 **Try MessageGo:**
 
-`PASTE YOUR VERCEL URL HERE`
+https://message-go-y7ga.vercel.app/PASTE YOUR VERCEL URL HERE
 
 ---
 
